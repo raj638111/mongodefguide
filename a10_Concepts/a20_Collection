@@ -1,0 +1,24 @@
+
+= Can be considered as a *table with dynamic schema
+= Is a group of Documents
+
+= Can have *Dynamic Schema (aka Documents can have different Shapes)
+  Ex: {"greeting" : "Hello, world!", "views": 3}
+      {"signoff": "Good night, and good luck"}
+      
+= How to enforce a standard schema for a Collection? 
+  (so that user can be prevented from creating multiple Shapes/Types within the same Collection)
+  - Can be done through *Document validation functionality
+  - Object-Document mapping libraries for many languages can also be used
+  
+= Naming
+  - Can be any UTF-8 String except
+    . Empty string ; ie ""
+    . \0 (null)  
+    . system.
+      ` This prefix is reserved for internal collection
+    . $
+    
+= Subcollections
+  - Provides a namespace to group related collections
+  - Ex: blog.posts, blog.authors     

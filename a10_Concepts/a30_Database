@@ -1,0 +1,31 @@
+
+= Single instance of Mongodb can host *Multiple database
+
+= Naming
+  - All UTF-8 Characters are accepted except,
+    . "" 
+    . /, \, ., ", *, <, >, :, |, ?, $, (a single space), or \0 (the null character
+  - Names are case-sensitive
+  - Limited to 64 Bytes
+  - BP: Always use lower case letters
+
+= Note
+  - The database names ends as files in file system
+  
+= Reserved database names
+  - admin 
+    . Used in authentication, authorization & some administrative operations
+  - local
+    . Stores data specific to a single server
+    . In replica sets, local stores data used in replication process
+  - config  
+    . Sharded MongoDB Clusters use this database to store information about each Shard
+    
+= Namespace
+  - db name + collection = namespace
+  - Ex:
+    . If db is cms
+    . If collection is blog.posts
+    . then namespace is cms.blog.posts    
+  - Length is limited to 121 Bytes
+  
