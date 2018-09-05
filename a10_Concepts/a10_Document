@@ -1,10 +1,10 @@
 
-= Is equivalent to *row in in relational database
++ Is equivalent to *row in in relational database
 
-= *_id
++ *_id
   - Each document has a special key _id
   
-= A document contains,
++ A document contains,
   - Ordered set of keys with associated values
   - Ex: {"greeting" : "Hello, world!", "views" : 3}
   - Key
@@ -13,7 +13,7 @@
   - Value
     . Can be of different data type
     
-= Document is 
++ Document is 
   - Type sensitive 
     {"count" : 5}
     {"count" : "5"}
@@ -23,7 +23,7 @@
     {"Count" : 5}
     . The above 2 documents are distinct because of different case              
 
-= Duplicate keys are not allowed
++ Duplicate keys are not allowed
   Ex: {"greeting" : "Hello, world!", "greeting" : "Hello, MongoDB!"}     
   
 = Key value pairs(Fields) are ordered

@@ -1,8 +1,9 @@
 
 
--- $set
++ $set
   - Is the update operator
   - Ex:
+  
 > db
 video
 > db.blog.update({"title": "somemovie"}, {$set : {reviews: ['good', 'good']}})

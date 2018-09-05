@@ -1,7 +1,7 @@
 
-= Single instance of Mongodb can host *Multiple database
++ Single instance of Mongodb can host *Multiple database
 
-= Naming
++ Naming
   - All UTF-8 Characters are accepted except,
     . "" 
     . /, \, ., ", *, <, >, :, |, ?, $, (a single space), or \0 (the null character
@@ -9,10 +9,10 @@
   - Limited to 64 Bytes
   - BP: Always use lower case letters
 
-= Note
++ Note
   - The database names ends as files in file system
   
-= Reserved database names
++ Reserved database names
   - admin 
     . Used in authentication, authorization & some administrative operations
   - local
@@ -21,7 +21,7 @@
   - config  
     . Sharded MongoDB Clusters use this database to store information about each Shard
     
-= Namespace
++ Namespace
   - db name + collection = namespace
   - Ex:
     . If db is cms

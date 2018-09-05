@@ -3,7 +3,7 @@
 
   + Document size must be smaller than 16 MB
   
-  + Check document size
+  + Check size of document / documents
   
 > movies = [{_id: '1', title: 'movie1', director: 'dir1'},  
 {_id: '1', title: 'movie2', director: 'dir2'},   
