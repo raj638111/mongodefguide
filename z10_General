@@ -1,16 +1,2 @@
 
--- Need to start here
-
-Chapter 4 > 
-
-
--- Questions
-
-1. Is there any different b/w the term operator(ex: $inc operator) & modifier(ex: $set modifier) 
-
-
--- Might want to look into
-
-  + save() 
-    - a22.a30.e15
-    - Used for updating a value in a document
+Next: Array & Range query interactions
